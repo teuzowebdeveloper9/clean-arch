@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyApp.domain\MyApp.core.csproj" />
+    <ProjectReference Include="..\..\presentation\cleanArch.API\cleanArch.API.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
