@@ -1,0 +1,71 @@
+## Ignore para C# e .NET com Clean Architecture
+
+# Binários e arquivos temporários
+**/bin/
+**/obj/
+**/TestResults/
+**/out/
+**/.vs/
+**/.vscode/
+
+# Arquivos de build do Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Configurações locais
+*.local
+*.env
+
+# Arquivos de cache do Rider e VS Code
+.idea/
+*.sln.iml
+.vscode/
+
+# Arquivos de pacotes
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Coverage (caso use cobertura de testes)
+coverage/
+*.coverage
+*.coveragexml
+
+# Arquivos de publish
+publish/
+app.publish/
+
+# Arquivos de Docker que são temporários
+**/docker-compose.override.yml
+
+# Arquivos secrets (ex: user-secrets)
+secrets.json
+
+# Certificados (evitar subir certificados locais)
+*.pfx
+*.p12
+
+# Banco de dados local (caso use SQLite ou similar)
+*.db
+*.sqlite
+
+# Arquivos gerados por ferramentas de testes
+*.trx
+
+# Diretórios de build temporário
+Generated/
+
+# Node (caso o projeto use UI em React ou Blazor WebAssembly)
+node_modules/
+dist/
+build/
